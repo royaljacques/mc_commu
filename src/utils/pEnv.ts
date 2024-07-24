@@ -13,9 +13,6 @@ const DATABASE_USERNAME = process.env.DATABASE_USERNAME;
 const DATABASE_PASSWORD = process.env.DATABASE_PASSWORD;
 const DATABASE_NAME = process.env.DATABASE_NAME;
 // Check for missing environment variables
-if (!BOT_TOKEN || !BOT_ID || !BOT_SECRET || !GUILD_OWNER_ID) {
-    throw new Error("Missing environment variables");
-}
 
 // Export the variables
 export {
