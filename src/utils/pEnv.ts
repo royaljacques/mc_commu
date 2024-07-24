@@ -1,7 +1,7 @@
-import * as dotenv from 'dotenv';
+import 'dotenv/config';
 
 // Load environment variables
-dotenv.config();
+
 
 const BOT_TOKEN: string = <string>process.env.BOT_TOKEN;
 const BOT_ID: string = <string>process.env.BOT_ID;
